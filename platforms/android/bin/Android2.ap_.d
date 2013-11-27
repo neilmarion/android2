@@ -86,7 +86,10 @@
 /home/neil/DEV/android2/platforms/android/assets/www/res/icon/ios/icon-57.png \
 /home/neil/DEV/android2/platforms/android/assets/www/res/icon/ios/icon-57-2x.png \
 /home/neil/DEV/android2/platforms/android/assets/www/res/icon/tizen/icon-128.png \
+/home/neil/DEV/android2/platforms/android/assets/www/css/jquery.mobile-1.2.0.min.css \
 /home/neil/DEV/android2/platforms/android/assets/www/css/index.css \
+/home/neil/DEV/android2/platforms/android/assets/www/js/jquery.mobile-1.2.0.min.js \
+/home/neil/DEV/android2/platforms/android/assets/www/js/jquery-1.8.2.min.js \
 /home/neil/DEV/android2/platforms/android/assets/www/js/index.js \
 /home/neil/DEV/android2/platforms/android/assets/www/spec/helper.js \
 /home/neil/DEV/android2/platforms/android/assets/www/spec/lib \
