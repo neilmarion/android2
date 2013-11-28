@@ -29,51 +29,63 @@
     </head>
     <body> 
 
-    <!-- Start of first page -->
-    <div data-role="page" id="foo">
+      <!-- Start of first page -->
+      <div data-role="page" id="foo">
 
-        <div data-role="header">
-            <h1>Foo</h1>
+          <div data-role="header">
+              <h1>Foo</h1>
+          </div><!-- /header -->
+
+          <div data-role="content">	
+              <p>I'm first in the source order so I'm shown as the page.</p>		
+              <p>View internal page called 
+                  <a href="#bar" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
+                      <span class="ui-btn-inner ui-btn-corner-all"> 
+                          <span class="ui-btn-text">Foo</span>
+                      </span>
+                  </a>
+              </p>	
+          </div><!-- /content -->
+      </div><!-- /page -->
+
+
+      <!-- Start of second page -->
+      <div data-role="page" id="bar" data-theme="a">
+          <div data-role="header">
+              <h1>Bar</h1>
+          </div><!-- /header -->
+
+          <div data-role="content">	
+              <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>		
+              <p>
+                  <a href="#foo" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
+                      <span class="ui-btn-inner ui-btn-corner-all"> 
+                          <span class="ui-btn-text">Back to Foo</span>
+                      </span>
+                  </a>
+              </p>
+          </div><!-- /content -->
+      </div><!-- /page -->
+
+      <div ata-role="page" id="see-photo" data-theme="a">
+        <div id="another-page-title">
+          <h1>Crop Image</h1>
         </div><!-- /header -->
 
-        <div data-role="content">	
-            <p>I'm first in the source order so I'm shown as the page.</p>		
-            <p>View internal page called 
-                <a href="#bar" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
-                    <span class="ui-btn-inner ui-btn-corner-all"> 
-                        <span class="ui-btn-text">Foo</span>
-                    </span>
-                </a>
-            </p>	
-        </div><!-- /content -->
+        <div id="pre-image-container">
+        </div>
+        <p>
+            <a href="#foo" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
+                <span class="ui-btn-inner ui-btn-corner-all"> 
+                    <span class="ui-btn-text">Back to Foo</span>
+                </span>
+            </a>
+        </p>
+      </div>    
 
-        <div data-role="footer">
-            <h4>Page Footer</h4>
-        </div><!-- /footer -->
-    </div><!-- /page -->
-
-
-    <!-- Start of second page -->
-    <div data-role="page" id="bar" data-theme="a">
-
-        <div data-role="header">
-            <h1>Bar</h1>
-        </div><!-- /header -->
-
-        <div data-role="content">	
-            <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>		
-            <p>
-                <a href="#foo" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
-                    <span class="ui-btn-inner ui-btn-corner-all"> 
-                        <span class="ui-btn-text">Back to Foo</span>
-                    </span>
-                </a>
-            </p>
-        </div><!-- /content -->
-
-        <div data-role="footer">
-            <h4>Page Footer</h4>
-        </div><!-- /footer -->
-    </div><!-- /page -->
+      <script type="text/javascript" src="phonegap.js"></script>
+      <script type="text/javascript">
+        app.initialize();
+      </script>
     </body>
 </html>
