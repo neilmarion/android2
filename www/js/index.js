@@ -81,7 +81,7 @@ function onPhotoDataSuccess(imageData) {
 
   // Unhide image elements
   //
-  $('#pre-image-container').append('<img id="photofb" style="width:100%;height:100%" src="'+imageData+'" />');
+  $('#pre-image-container').html('<img id="photofb" style="max-width:100%" src="'+imageData+'" />');
   changePage('#see-photo');
 
   // Show the captured photo
