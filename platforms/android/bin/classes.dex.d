@@ -4,6 +4,12 @@
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/camera/CameraLauncher.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/camera/FileHelper.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/camera/ExifHelper.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/AudioPlayer$MODE.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/AudioPlayer.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/AudioHandler.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/AudioPlayer$STATE.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/FileHelper.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/media/AudioPlayer$1.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/FileUtils$15.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/FileUtils$7.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/NoModificationAllowedException.class \

@@ -38,6 +38,7 @@
 /home/neilmarion/DEV/android2/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/img/logo.png \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.file \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www \
@@ -48,6 +49,9 @@
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www/CaptureError.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www/CaptureVideoOptions.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www/CaptureAudioOptions.js \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media/www \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media/www/Media.js \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media/www/MediaError.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \

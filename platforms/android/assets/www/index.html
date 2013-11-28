@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
         <script src="js/jquery-1.8.2.min.js"></script>
         <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/index.js"></script>
         <title>Hello World</title>
     </head>
     <body> 
@@ -45,13 +46,13 @@
                       </span>
                   </a>
               </p>	
+              <input type="button" id="take-photo" onclick="capturePhoto();" value="Take Photo">
           </div><!-- /content -->
       </div><!-- /page -->
 
 
       <!-- Start of second page -->
       <div data-role="page" id="bar" data-theme="a">
-
           <div data-role="header">
               <h1>Bar</h1>
           </div><!-- /header -->
@@ -67,6 +68,23 @@
               </p>
           </div><!-- /content -->
       </div><!-- /page -->
+
+      <div data-role="page" id="see-photo" data-theme="a">
+        <div id="another-page-title">
+          <h1>Crop Image</h1>
+        </div><!-- /header -->
+
+        <div id="pre-image-container">
+        </div>
+        <p>
+            <a href="#foo" data-role="button" data-theme="b" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-b">
+                <span class="ui-btn-inner ui-btn-corner-all"> 
+                    <span class="ui-btn-text">Back to Foo</span>
+                </span>
+            </a>
+        </p>
+      </div>    
+
       <script type="text/javascript" src="phonegap.js"></script>
       <script type="text/javascript">
         app.initialize();

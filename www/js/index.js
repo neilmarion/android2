@@ -48,6 +48,11 @@ var app = {
     }
 };
 
+function changePage(page){
+   $.mobile.changePage( page, { transition: "slideup", changeHash: false }); 
+}
+
+
 //photocapture
 
 var pictureSource;   // picture source
