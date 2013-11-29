@@ -81,7 +81,7 @@ function onPhotoDataSuccess(imageData) {
 
   // Unhide image elements
   //
-  $('#pre-image-container').html('<img id="photofb" style="max-width:100%" src="'+imageData+'" />');
+  $('#pre-image-container').html('<img id="photo" style="max-width:100%" src="'+imageData+'" />');
   changePage('#see-photo');
 
   // Show the captured photo
@@ -140,3 +140,7 @@ function onFail(message) {
   alert('Failed because: ' + message);
 }
 
+function shareSocial() {
+  photo = $('#photo').attr('src');
+  window.plugins.socialsharing.share('#katsucraze', null, photo, null);
+}
