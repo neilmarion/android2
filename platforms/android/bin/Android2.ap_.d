@@ -26,6 +26,7 @@
 /home/neilmarion/DEV/android2/platforms/android/assets/www/icon.png \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/phonegap.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/js/index.js \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/js/SocialSharing.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/js/jquery-1.8.2.min.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/js/jquery.mobile-1.2.0.min.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/spec/index.js \
@@ -37,10 +38,13 @@
 /home/neilmarion/DEV/android2/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/img/logo.png \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/nl.x-services.plugins.socialsharing \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.file \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/nl.x-services.plugins.socialsharing/www \
+/home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/nl.x-services.plugins.socialsharing/www/SocialSharing.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www/capture.js \
 /home/neilmarion/DEV/android2/platforms/android/assets/www/plugins/org.apache.cordova.media-capture/www/MediaFileData.js \

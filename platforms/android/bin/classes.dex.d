@@ -43,6 +43,7 @@
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/FileUtils$13.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/FileExistsException.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/org/apache/cordova/file/FileUtils$21.class \
+/home/neilmarion/DEV/android2/platforms/android/bin/classes/nl/xservices/plugins/SocialSharing.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/com/example/android2/R$string.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/com/example/android2/R.class \
 /home/neilmarion/DEV/android2/platforms/android/bin/classes/com/example/android2/BuildConfig.class \
