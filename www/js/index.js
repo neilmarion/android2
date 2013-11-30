@@ -48,6 +48,10 @@ var app = {
     }
 };
 
+    $.mobile.buttonMarkup.hoverDelay = 50 
+
+$.mobile.defaultPageTransition = 'none';
+
 function changePage(page){
    $.mobile.changePage( page, { transition: "slideup", changeHash: false }); 
 }
