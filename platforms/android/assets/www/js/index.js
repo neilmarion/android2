@@ -48,6 +48,10 @@ var app = {
     }
 };
 
+    $.mobile.buttonMarkup.hoverDelay = 50 
+
+$.mobile.defaultPageTransition = 'none';
+
 function changePage(page){
    $.mobile.changePage( page, { transition: "slideup", changeHash: false }); 
 }
@@ -141,6 +145,7 @@ function onFail(message) {
 }
 
 function shareSocial() {
+  console.log($('#photo').attr('src'));
   photo = $('#photo').attr('src');
   window.plugins.socialsharing.share('#katsucraze', null, photo, null);
 }

@@ -145,6 +145,7 @@ function onFail(message) {
 }
 
 function shareSocial() {
+  console.log($('#photo').attr('src'));
   photo = $('#photo').attr('src');
   window.plugins.socialsharing.share('#katsucraze', null, photo, null);
 }
