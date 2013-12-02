@@ -153,7 +153,7 @@ function shareSocial() {
 function uploadPhoto() {
     photoFileName = $('#photo').attr('src');
     var options = new FileUploadOptions();
-    options.fileKey="file";
+    options.fileKey="avatar";
     options.fileName=photoFileName.substr(photoFileName.lastIndexOf('/')+1)+'.jpg';
     options.mimeType="image/jpg";
 
@@ -172,6 +172,7 @@ function win(r) {
 }
 
 function fail(error) {
+    console.log(error);
     alert("An error has occurred: Code = " + error.code);
     console.log("upload error source " + error.source);
     console.log("upload error target " + error.target);
