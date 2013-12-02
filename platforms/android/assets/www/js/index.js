@@ -153,7 +153,7 @@ function shareSocial() {
 function uploadPhoto() {
     photoFileName = $('#photo').attr('src');
     var options = new FileUploadOptions();
-    options.fileKey="file";
+    options.fileKey="avatar";
     options.fileName=photoFileName.substr(photoFileName.lastIndexOf('/')+1)+'.jpg';
     options.mimeType="image/jpg";
 
